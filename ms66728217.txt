@@ -1,0 +1,5 @@
+{
+  "Description": "Domain ownership verification file for Microsoft 365 - place in the website root",
+  "Domain": "SynCok.github.io",
+  "Id": "b6382bae-2abf-459c-a5de-52d0db00117b"
+}
