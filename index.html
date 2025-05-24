@@ -6,7 +6,11 @@
   <script>
     (function() {
       // Extract the path from the current URL
-      const path = window.location.pathname;
+      const path = window.location.search.replace("?q=","");
+
+      if(!path) {
+         window.location.replace("https://google.com/");
+      }
       // Define the new base domain
       const newDomain = 'https://falcone.eu.com';
       // Redirect
